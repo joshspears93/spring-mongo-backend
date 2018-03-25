@@ -1,0 +1,15 @@
+{
+	"firstName" : "John",
+	"lastName" : "Smith",
+	"middleInitial" : "B",
+	"emailAddress" : "smith_jones@google.com",
+	"phoneNumber" : "7894561236",
+	"positionCategory" : "Direct",
+	"dateHired" : "2017-11-15",
+	"addressOne" : "6895 Working Lane",
+	"addressTwo" : "Apt 213",
+	"city" : "Virginia Beach",
+	"state" : "VA",
+	"zipCode" : "22304",
+	"active" : "true"
+}
