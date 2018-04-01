@@ -39,7 +39,6 @@ public class Employee {
     private String positionCategory;
 
     @NotNull
-    @Past
     private LocalDate dateHired;
 
     private String addressOne;
