@@ -65,10 +65,11 @@ public class EmployeeController {
     public ResponseEntity<String> deleteEmployee(@PathVariable("id") String id){
         if(employeeRepository.findById(id).isPresent()){
             employeeRepository.deleteById(id);
-            return ResponseEntity.ok().body("employee record deleted");
+            // return ResponseEntity.ok().body("employee record deleted");
+            return ResponseEntity.ok().build();
         }
         else{
-            return ResponseEntity.badRequest().body("no employee record found");
+            return ResponseEntity.badRequest().build();
         }
     }
 
