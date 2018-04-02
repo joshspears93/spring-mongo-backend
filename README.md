@@ -3,10 +3,6 @@
 This project is an example of how to use MongoDB as your backend database service with Sprint Boot powering the middle tier serving REST endpoints 
 for an AngularJS frontend.  The program will allow users to perform basic CRUD operations on a subset of employee objects.  
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
 What things you need to run the program
